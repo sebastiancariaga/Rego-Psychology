@@ -140,6 +140,8 @@ nav.main-nav a:hover, nav.main-nav a.active { border-color: var(--gold); }
 .btn.btn-navy:hover { background: var(--navy-deep); }
 .btn.btn-ghost { background: transparent; color: var(--navy) !important; border: 1.5px solid var(--navy); }
 .btn.btn-ghost:hover { background: var(--navy); color: #fff !important; }
+.btn.btn-teal { background: var(--teal); color: #fff !important; }
+.btn.btn-teal:hover { background: #0D5F62; }
 .btn.btn-sm { padding: 8px 18px; font-size: 0.84rem; }
 
 /* ---------- Hero ---------- */
@@ -327,7 +329,8 @@ footer.site-footer li { margin-bottom: 10px; font-size: 0.95rem; }
 @media (max-width: 680px) {
   nav.main-nav { display: none; }
   .hamburger { display: flex; }
-  header.site-header .wrap > .btn-gold { display: none; }
+  header.site-header .wrap > .btn-gold,
+  header.site-header .wrap > .btn-teal { display: none; }
   .topbar-links { gap: 12px 18px; }
   .grid.cols-3, .grid.cols-4, .grid.cols-2 { grid-template-columns: 1fr; }
   .callout { padding: 30px 22px; }
