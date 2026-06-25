@@ -107,7 +107,7 @@ img { max-width: 100%; display: block; }
 .topbar .wrap { display: flex; flex-wrap: wrap; gap: 8px 28px; justify-content: space-between; align-items: center; padding-top: 4px; padding-bottom: 4px; }
 .topbar a { color: #D9E2E6; opacity: 0.92; }
 .topbar a:hover { opacity: 1; text-decoration: underline; }
-.topbar .wrap > a { font-size: 0.88rem; font-weight: 600; opacity: 1; text-decoration: underline; }
+.topbar .wrap > a { font-size: 0.96rem; font-weight: 600; opacity: 1; text-decoration: underline; }
 .topbar .wrap > a:hover { opacity: 0.8; }
 .topbar-links { display: flex; gap: 22px; flex-wrap: wrap; }
 
