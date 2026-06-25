@@ -289,7 +289,8 @@ footer.site-footer li { margin-bottom: 10px; font-size: 0.95rem; }
 .powered-by-inline { display: inline-flex; flex-direction: column; align-items: flex-start; gap: 5px; color: #9FB0B5; font-size: 0.78rem; opacity: 0.75; transition: opacity 0.2s; }
 .powered-by-inline:hover { opacity: 1; }
 .powered-by-inline img { height: 36px; width: auto; border-radius: 4px; }
-.footer-bottom { border-top: 1px solid rgba(255,255,255,0.12); padding-top: 20px; font-size: 0.82rem; color: #9FB0B5; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 10px; }
+.footer-bottom { border-top: 1px solid rgba(255,255,255,0.12); padding-top: 20px; font-size: 0.82rem; color: #9FB0B5; display: flex; flex-direction: column; gap: 10px; }
+.footer-legal { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 10px; }
 .foot-logo-wrap { display: inline-block; background: #fff; border-radius: var(--radius-sm); border: 1px solid rgba(255,255,255,0.2); padding: 10px 16px; margin-bottom: 16px; }
 .foot-logo-img { height: 48px; width: auto; display: block; }
 .social-row { display: flex; gap: 14px; margin-top: 14px; }
